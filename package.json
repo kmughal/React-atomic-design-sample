@@ -1,8 +1,11 @@
 {
   "name": "react-atomic-design",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "homepage": "http://github.com/react-atomic-design/",
   "scripts": {
     "prestart": "npm run gen:docs",
@@ -15,15 +18,51 @@
     "deploy:docs": "gh-pages -d build",
     "build:docs": "node scripts/build.js",
     "build:commonjs": "cross-env NODE_ENV=production babel ./src/components --out-dir ./lib --ignore spec.js",
-    
-    "prebuild:lib" : "rimraf lib",
-    "build:css" : "cpx \"./src/components/**/*.css\" ./lib",
-    "build:lib" : "npm run build:commonjs && npm run build:css"
+    "prebuild:lib": "rimraf lib",
+    "build:css": "cpx \"./src/components/**/*.css\" ./lib",
+    "build:lib": "npm run build:commonjs && npm run build:css"
   },
-  "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Khurram Shahzad",
+    "email": "kmughal@gmail.com"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "react",
+    "react atomic design",
+    "create react docs"
+  ],
   "license": "ISC",
   "dependencies": {
+    "prop-types": "15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "react-addons-test-utils": "15.6.2",
+    "react-app-polyfill": "^1.0.1",
+    "react-dev-utils": "^9.0.1",
+    "react-highligted-text": "1.0.1",
+    "react-test-renderer": "^16.8.6",
+    "resolve": "1.10.0",
+    "sass-loader": "7.1.0",
+    "semver": "6.0.0",
+    "style-loader": "0.23.1",
+    "terser-webpack-plugin": "1.2.3",
+    "ts-pnp": "1.1.2",
+    "url-loader": "1.1.2",
+    "webpack": "4.29.6",
+    "webpack-dev-server": "3.2.1",
+    "webpack-manifest-plugin": "2.0.4",
+    "workbox-webpack-plugin": "4.2.0",
+    "babel-preset-env": "1.7.0",
+    "@babel/preset-env": "^7.5.5",
+    "babel-preset-react": "^6.24.1",
+    "chalk": "2.4.2",
+    "chokidar": "3.0.1",
+    "react-docgen": "4.1.1",
     "@babel/cli": "^7.0.0",
     "cross-env": "5.2.0",
     "rimraf": "2.6.3",
@@ -71,34 +110,7 @@
     "postcss-loader": "3.0.0",
     "postcss-normalize": "7.0.1",
     "postcss-preset-env": "6.6.0",
-    "postcss-safe-parser": "4.0.1",
-    "prop-types": "15.7.2",
-    "react": "^16.8.6",
-    "react-addons-test-utils": "15.6.2",
-    "react-app-polyfill": "^1.0.1",
-    "react-dev-utils": "^9.0.1",
-    "react-dom": "^16.8.6",
-    "react-highligted-text": "1.0.1",
-    "react-test-renderer": "^16.8.6",
-    "resolve": "1.10.0",
-    "sass-loader": "7.1.0",
-    "semver": "6.0.0",
-    "style-loader": "0.23.1",
-    "terser-webpack-plugin": "1.2.3",
-    "ts-pnp": "1.1.2",
-    "url-loader": "1.1.2",
-    "webpack": "4.29.6",
-    "webpack-dev-server": "3.2.1",
-    "webpack-manifest-plugin": "2.0.4",
-    "workbox-webpack-plugin": "4.2.0",
-    "babel-preset-env": "1.7.0"
-  },
-  "devDependencies": {
-    "@babel/preset-env": "^7.5.5",
-    "babel-preset-react": "^6.24.1",
-    "chalk": "2.4.2",
-    "chokidar": "3.0.1",
-    "react-docgen": "4.1.1"
+    "postcss-safe-parser": "4.0.1"
   },
   "browserslist": {
     "production": [
