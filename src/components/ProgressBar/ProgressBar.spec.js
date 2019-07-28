@@ -16,8 +16,22 @@ describe("ProgressBar", () => {
 });
 
 describe("ProgressBar - snapshot testing", () => {
-	const tree = renderer
+  test("should render a progress bar",()=>{
+    const tree = renderer
 		.create(<ProgressBar percent={20} width={500} height={100} />)
     .toJSON();
     expect(tree).toMatchSnapshot();
+  })
 });
+
+
+// it is silly test but just have three levels covered!
+
+describe("ProgressBar interaction testing example" ,()=> {
+  test("should have a div" ,()=> {
+    const wrapper = Enzyme.shallow(
+			<ProgressBar percent={20} width={500} height={100} />
+    );
+    expect(wrapper.find('div').length).toEqual(2)
+  })
+})

@@ -20,3 +20,24 @@ exports[` 1`] = `
   />
 </div>
 `;
+
+exports[`ProgressBar - snapshot testing should render a progress bar 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid gray",
+      "width": 500,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "background": "red",
+        "height": 100,
+        "width": 100,
+      }
+    }
+  />
+</div>
+`;
