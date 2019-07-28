@@ -32,6 +32,6 @@ describe("ProgressBar interaction testing example" ,()=> {
     const wrapper = Enzyme.shallow(
 			<ProgressBar percent={20} width={500} height={100} />
     );
-    expect(wrapper.find('div').length).toEqual(2)
+    expect(wrapper.find('div')).toHaveLength(2)
   })
 })
