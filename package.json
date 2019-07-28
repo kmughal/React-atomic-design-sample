@@ -1,9 +1,9 @@
 {
-  "name": "react-atomic-design-sample",
+  "name": "ps-react",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "http://github.com/kmughal/React-atomic-design-sample/",
+  "homepage": "http://github.com/kmughal/ps-react/",
   "scripts": {
     "prestart": "npm run gen:docs",
     "start": "npm-run-all --parallel start:docs gen:docs-watch",
@@ -11,6 +11,7 @@
     "start:docs": "node scripts/start.js",
     "gen:docs": "node scripts/buildDocs.js",
     "gen:docs-watch": "npm run gen:docs -- --watch",
+
     "predeploy:docs" : "npm run build:docs",
     "deploy:docs" : "gh-pages -d build",
     "build:docs" : "node scripts/build.js"
