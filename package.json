@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "npm run gen:docs",
     "start": "npm-run-all --parallel start:docs gen:docs-watch",
-    "test": "node scripts/test.js --env=jsdom",
+    "test": "jest --env=jsdom",
     "start:docs": "node scripts/start.js",
     "gen:docs": "node scripts/buildDocs.js",
     "gen:docs-watch": "npm run gen:docs -- --watch"
