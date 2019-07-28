@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kmughal/React-atomic-design-sample/static/css/main.46815887.chunk.css",
-    "main.js": "/kmughal/React-atomic-design-sample/static/js/main.ed7d9dd3.chunk.js",
-    "main.js.map": "/kmughal/React-atomic-design-sample/static/js/main.ed7d9dd3.chunk.js.map",
-    "runtime~main.js": "/kmughal/React-atomic-design-sample/static/js/runtime~main.4e2a5a96.js",
-    "runtime~main.js.map": "/kmughal/React-atomic-design-sample/static/js/runtime~main.4e2a5a96.js.map",
-    "static/css/2.677f2dd4.chunk.css": "/kmughal/React-atomic-design-sample/static/css/2.677f2dd4.chunk.css",
-    "static/js/2.7538a9f7.chunk.js": "/kmughal/React-atomic-design-sample/static/js/2.7538a9f7.chunk.js",
-    "static/js/2.7538a9f7.chunk.js.map": "/kmughal/React-atomic-design-sample/static/js/2.7538a9f7.chunk.js.map",
-    "index.html": "/kmughal/React-atomic-design-sample/index.html",
-    "precache-manifest.ad4503b7b963b8f56e20d5d5342ac9bb.js": "/kmughal/React-atomic-design-sample/precache-manifest.ad4503b7b963b8f56e20d5d5342ac9bb.js",
-    "service-worker.js": "/kmughal/React-atomic-design-sample/service-worker.js",
-    "static/css/2.677f2dd4.chunk.css.map": "/kmughal/React-atomic-design-sample/static/css/2.677f2dd4.chunk.css.map",
-    "static/css/main.46815887.chunk.css.map": "/kmughal/React-atomic-design-sample/static/css/main.46815887.chunk.css.map"
+    "main.css": "/kmughal/ps-react/static/css/main.46815887.chunk.css",
+    "main.js": "/kmughal/ps-react/static/js/main.ed7d9dd3.chunk.js",
+    "main.js.map": "/kmughal/ps-react/static/js/main.ed7d9dd3.chunk.js.map",
+    "runtime~main.js": "/kmughal/ps-react/static/js/runtime~main.1287968d.js",
+    "runtime~main.js.map": "/kmughal/ps-react/static/js/runtime~main.1287968d.js.map",
+    "static/css/2.677f2dd4.chunk.css": "/kmughal/ps-react/static/css/2.677f2dd4.chunk.css",
+    "static/js/2.7538a9f7.chunk.js": "/kmughal/ps-react/static/js/2.7538a9f7.chunk.js",
+    "static/js/2.7538a9f7.chunk.js.map": "/kmughal/ps-react/static/js/2.7538a9f7.chunk.js.map",
+    "index.html": "/kmughal/ps-react/index.html",
+    "precache-manifest.1f9f6f0b7d05be1e3beb341824709de8.js": "/kmughal/ps-react/precache-manifest.1f9f6f0b7d05be1e3beb341824709de8.js",
+    "service-worker.js": "/kmughal/ps-react/service-worker.js",
+    "static/css/2.677f2dd4.chunk.css.map": "/kmughal/ps-react/static/css/2.677f2dd4.chunk.css.map",
+    "static/css/main.46815887.chunk.css.map": "/kmughal/ps-react/static/css/main.46815887.chunk.css.map"
   }
 }
